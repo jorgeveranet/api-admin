@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nrwl/cli": "15.0.3",
+    "@nrwl/express": "^15.0.3",
     "@nrwl/js": "15.0.3",
     "@nrwl/nx-cloud": "latest",
     "@nrwl/workspace": "15.0.3",
