@@ -3,10 +3,13 @@
  * This is only a minimal backend to get started.
  */
 
-import * as express from 'express';
+import helmet from "helmet";
 import * as path from 'path';
+import * as express from 'express';
 
 const app = express();
+
+app.use(helmet())
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
